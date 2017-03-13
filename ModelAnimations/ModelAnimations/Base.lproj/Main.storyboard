@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="gAe-Cx-Vwt">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="8J9-lq-7Hw">
+            <objects>
+                <navigationController id="gAe-Cx-Vwt" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="DhW-fb-0UY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="WHq-0n-kPX"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L7I-bh-L37" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-639" y="130"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="fj9-dL-yA5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="135" y="130"/>
+        </scene>
+        <!--First ContentVC-->
+        <scene sceneID="8E2-Gb-VlA">
+            <objects>
+                <viewController storyboardIdentifier="FirstContentVC" id="UAr-7x-4IO" customClass="FirstContentVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2eh-B4-GTQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="ChZ-bF-MnF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IsT-Ao-T3S">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Hv-md-l3L">
+                                <rect key="frame" x="50" y="70" width="275" height="547"/>
+                                <mutableString key="text">我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="6Hv-md-l3L" firstAttribute="top" secondItem="2eh-B4-GTQ" secondAttribute="bottom" constant="50" id="39K-h7-m1d"/>
+                            <constraint firstItem="6Hv-md-l3L" firstAttribute="leading" secondItem="IsT-Ao-T3S" secondAttribute="leading" constant="50" id="I1B-aw-14O"/>
+                            <constraint firstAttribute="trailing" secondItem="6Hv-md-l3L" secondAttribute="trailing" constant="50" id="RZc-kF-iW9"/>
+                            <constraint firstItem="ChZ-bF-MnF" firstAttribute="top" secondItem="6Hv-md-l3L" secondAttribute="bottom" constant="50" id="hj3-XW-YFv"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EvI-d6-xPc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="902" y="122"/>
+        </scene>
+        <!--Second Animation ContentVC-->
+        <scene sceneID="fKn-7U-xMZ">
+            <objects>
+                <viewController storyboardIdentifier="SecondAnimationContentVC" id="J25-58-Sur" customClass="SecondAnimationContentVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1Oy-Mx-Rx1"/>
+                        <viewControllerLayoutGuide type="bottom" id="MAK-4A-yIP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="a1M-qd-lAs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="300"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TZf-KC-IQ0">
+                                <rect key="frame" x="34" y="60" width="307" height="180"/>
+                                <mutableString key="text">我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="MAK-4A-yIP" firstAttribute="top" secondItem="TZf-KC-IQ0" secondAttribute="bottom" constant="60" id="2yn-Xz-Cky"/>
+                            <constraint firstItem="TZf-KC-IQ0" firstAttribute="top" secondItem="1Oy-Mx-Rx1" secondAttribute="bottom" constant="40" id="3gj-bq-R56"/>
+                            <constraint firstItem="TZf-KC-IQ0" firstAttribute="leading" secondItem="a1M-qd-lAs" secondAttribute="leading" constant="34" id="Mkx-nT-4GX"/>
+                            <constraint firstAttribute="trailing" secondItem="TZf-KC-IQ0" secondAttribute="trailing" constant="34" id="et7-3o-nRU"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="300"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2h4-qD-IId" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="co7-ie-dQx">
+                    <rect key="frame" x="0.0" y="0.0" width="275" height="547"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <mutableString key="text">我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件我是一个测试文件</mutableString>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </objects>
+            <point key="canvasLocation" x="1598" y="122"/>
+        </scene>
+    </scenes>
+</document>
